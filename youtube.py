@@ -278,7 +278,6 @@ video_table()
 # Insert video Details Video_ID
 try:
     for video_data in video_info:
-        if not video_exists(video_data['Video_ID']):
             sql = """INSERT INTO videos_data(channel_name, Video_ID, Video_Title, Video_Thumbnail, Description, PublishedAt,
                                                 Duration, Video_views, Like_Count, Dislike_Count, Favorite_Count, 
                                                 Video_comment, Caption_Status, Tags) 
