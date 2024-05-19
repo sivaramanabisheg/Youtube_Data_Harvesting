@@ -275,18 +275,6 @@ def video_table():
         print("Created Video Table")
 video_table()
 
-# Insert video Details
-# Function to check if video exists in the database
-def video_exists(video_id):
-    try:
-        query = "SELECT COUNT(*) FROM videos_data WHERE Video_ID = %s"
-        mycursor.execute(query, (video_id,))
-        result = mycursor.fetchone()
-        return result[0] > 0
-    except Exception as e:
-        print("Error executing SQL query in video_exists:", e)
-        return False  # incase of error
-
 # Insert video Details Video_ID
 try:
     for video_data in video_info:
