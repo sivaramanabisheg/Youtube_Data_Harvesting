@@ -7,7 +7,7 @@ This project is a YouTube data analysis tool built with Python, utilizing the Yo
 
 To run this project locally, you'll need to:
 
-1. Install the necessary Python libraries (`google-api-python-client`, `pandas`, `mysql-connector-python`, `streamlit`) using pip.
+1. Install the necessary Python libraries (`google-api-python-client`, `pandas`, `mysql-connector-python`, `streamlit`,`re`) using pip.
 2. Obtain a YouTube Data API key from the Google Cloud Console and replace the placeholder `api_key` in the code with your API key.
 3. Configure a MySQL database and update the connection details (`host`, `user`, `password`) in the code accordingly.
 
