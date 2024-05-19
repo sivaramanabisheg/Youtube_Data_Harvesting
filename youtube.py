@@ -16,7 +16,7 @@ import streamlit as st
 def api_connect():
     api_service_name = "youtube"
     api_version = "v3"
-    api_key="AIzaSyCZtgLw5AotEuqnGyoKsDmQBRKEopDrmaA"
+    api_key="api_key"
     youtube = googleapiclient.discovery.build(
             api_service_name, api_version, developerKey=api_key)
     return youtube
