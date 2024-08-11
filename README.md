@@ -1,4 +1,3 @@
-# Capstone---P1
 # YouTube Data Harvesting and Warehousing using Python, SQL and Streamlit
 
 This project is a YouTube data analysis tool built with Python, utilizing the YouTube Data API to extract information about channels, videos, comments, and playlists. It also integrates with a MySQL database to store and manage the collected data.
